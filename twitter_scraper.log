@@ -281,3 +281,72 @@ Stacktrace:
 2024-12-25 05:57:40,127 - INFO - 127.0.0.1 - - [25/Dec/2024 05:57:40] "GET / HTTP/1.1" 200 -
 2024-12-25 05:57:45,207 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\app.py', reloading
 2024-12-25 05:57:45,363 - INFO -  * Restarting with stat
+2024-12-25 05:57:46,837 - WARNING -  * Debugger is active!
+2024-12-25 05:57:46,843 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:57:47,090 - INFO - 127.0.0.1 - - [25/Dec/2024 05:57:47] "GET / HTTP/1.1" 200 -
+2024-12-25 05:57:50,553 - INFO - TwitterScraper initialized with custom database configuration
+2024-12-25 05:57:50,553 - INFO - Starting trending topics extraction
+2024-12-25 05:57:50,553 - INFO - Setting up WebDriver
+2024-12-25 05:57:52,382 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 05:57:52,382 - INFO - Attempting Twitter login
+2024-12-25 05:58:12,328 - INFO - Successfully logged into Twitter
+2024-12-25 05:58:22,392 - INFO - Found trend: Business & finance · Trending
+2024-12-25 05:58:22,418 - INFO - Found trend: Politics · Trending
+2024-12-25 05:58:22,446 - INFO - Found trend: Trending in India
+2024-12-25 05:58:22,491 - INFO - Found trend: #NirmalaSitharaman
+2024-12-25 05:58:22,497 - INFO - Successfully saved trends to MongoDB with ID: 22f300b8-84ea-4dcc-9a3a-1ae9f6aad875
+2024-12-25 05:58:24,931 - INFO - WebDriver closed
+2024-12-25 05:58:24,932 - INFO - 127.0.0.1 - - [25/Dec/2024 05:58:24] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 06:05:41,425 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\config.py', reloading
+2024-12-25 06:05:45,661 - INFO -  * Restarting with stat
+2024-12-25 06:05:47,278 - WARNING -  * Debugger is active!
+2024-12-25 06:05:47,284 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 06:06:09,947 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\database.py', reloading
+2024-12-25 06:06:10,123 - INFO -  * Restarting with stat
+2024-12-25 06:06:11,528 - WARNING -  * Debugger is active!
+2024-12-25 06:06:11,536 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 06:07:21,081 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\webdriver_manager.py', reloading
+2024-12-25 06:07:21,331 - INFO -  * Restarting with stat
+2024-12-25 06:07:22,906 - WARNING -  * Debugger is active!
+2024-12-25 06:07:22,913 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 06:08:04,245 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\twitter_scraper.py', reloading
+2024-12-25 06:08:04,364 - INFO -  * Restarting with stat
+2024-12-25 06:08:05,654 - WARNING -  * Debugger is active!
+2024-12-25 06:08:05,659 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 06:09:20,895 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\app.py', reloading
+2024-12-25 06:09:21,002 - INFO -  * Restarting with stat
+2024-12-25 06:09:22,505 - WARNING -  * Debugger is active!
+2024-12-25 06:09:22,510 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 06:10:14,524 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 06:10:14,525 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 06:10:14,529 - INFO -  * Restarting with stat
+2024-12-25 06:10:15,903 - WARNING -  * Debugger is active!
+2024-12-25 06:10:15,908 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 06:10:21,537 - INFO - 127.0.0.1 - - [25/Dec/2024 06:10:21] "GET / HTTP/1.1" 200 -
+2024-12-25 06:10:24,012 - INFO - Database connection initialized
+2024-12-25 06:10:24,012 - INFO - TwitterScraper initialized
+2024-12-25 06:10:24,012 - INFO - Starting trending topics extraction
+2024-12-25 06:10:26,407 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 06:10:26,408 - INFO - Attempting Twitter login
+2024-12-25 06:10:45,422 - INFO - Successfully logged into Twitter
+2024-12-25 06:10:52,162 - INFO - Found trend: Entertainment · Trending
+2024-12-25 06:10:52,215 - INFO - Found trend: Business & finance · Trending
+2024-12-25 06:10:52,243 - INFO - Found trend: Politics · Trending
+2024-12-25 06:10:52,300 - INFO - Found trend: #AvinashMishra
+2024-12-25 06:10:52,308 - INFO - Record inserted with ID: e1257676-6aeb-4089-983a-1dcacb262463
+2024-12-25 06:10:54,842 - INFO - WebDriver closed
+2024-12-25 06:10:54,843 - INFO - 127.0.0.1 - - [25/Dec/2024 06:10:54] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 06:11:02,849 - INFO - Database connection initialized
+2024-12-25 06:11:02,849 - INFO - TwitterScraper initialized
+2024-12-25 06:11:02,849 - INFO - Starting trending topics extraction
+2024-12-25 06:11:04,664 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 06:11:04,664 - INFO - Attempting Twitter login
+2024-12-25 06:11:24,141 - INFO - Successfully logged into Twitter
+2024-12-25 06:11:31,131 - INFO - Found trend: Entertainment · Trending
+2024-12-25 06:11:31,158 - INFO - Found trend: Business & finance · Trending
+2024-12-25 06:11:31,187 - INFO - Found trend: Politics · Trending
+2024-12-25 06:11:31,232 - INFO - Found trend: #NirmalaSitharaman
+2024-12-25 06:11:31,251 - INFO - Record inserted with ID: dcacfc19-62a9-4976-8bb7-14d638c4a6c7
+2024-12-25 06:11:33,664 - INFO - WebDriver closed
+2024-12-25 06:11:33,665 - INFO - 127.0.0.1 - - [25/Dec/2024 06:11:33] "GET /scrape HTTP/1.1" 200 -
