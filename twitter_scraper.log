@@ -1,0 +1,283 @@
+2024-12-25 05:12:24,484 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 05:12:24,485 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 05:12:24,488 - INFO -  * Restarting with stat
+2024-12-25 05:12:25,763 - WARNING -  * Debugger is active!
+2024-12-25 05:12:25,769 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:12:37,960 - INFO - 127.0.0.1 - - [25/Dec/2024 05:12:37] "GET / HTTP/1.1" 200 -
+2024-12-25 05:12:40,197 - INFO - TwitterScraper initialized
+2024-12-25 05:12:40,197 - INFO - Starting trending topics extraction
+2024-12-25 05:12:40,198 - INFO - Setting up WebDriver
+2024-12-25 05:12:42,246 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 05:12:42,246 - INFO - Attempting Twitter login
+2024-12-25 05:12:52,432 - INFO - username added
+2024-12-25 05:12:53,757 - INFO - password added
+2024-12-25 05:12:58,325 - INFO - Successfully logged into Twitter
+2024-12-25 05:12:58,356 - ERROR - Error during scraping: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[text()='What's happening'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[text()='What's happening']' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BD92FB05+28789]
+	(No symbol) [0x00007FF6BD8986E0]
+	(No symbol) [0x00007FF6BD73592A]
+	(No symbol) [0x00007FF6BD73C48F]
+	(No symbol) [0x00007FF6BD73F13C]
+	(No symbol) [0x00007FF6BD73F20F]
+	(No symbol) [0x00007FF6BD788DBA]
+	(No symbol) [0x00007FF6BD7895FC]
+	(No symbol) [0x00007FF6BD7D28A7]
+	(No symbol) [0x00007FF6BD7AF47F]
+	(No symbol) [0x00007FF6BD7CF654]
+	(No symbol) [0x00007FF6BD7AF1E3]
+	(No symbol) [0x00007FF6BD77A938]
+	(No symbol) [0x00007FF6BD77BAA1]
+	GetHandleVerifier [0x00007FF6BDC6933D+3410093]
+	GetHandleVerifier [0x00007FF6BDC7E7DD+3497293]
+	GetHandleVerifier [0x00007FF6BDC72A73+3448803]
+	GetHandleVerifier [0x00007FF6BD9F7BBB+848171]
+	(No symbol) [0x00007FF6BD8A3C3F]
+	(No symbol) [0x00007FF6BD89F6E4]
+	(No symbol) [0x00007FF6BD89F87D]
+	(No symbol) [0x00007FF6BD88ED49]
+	BaseThreadInitThunk [0x00007FFDF896259D+29]
+	RtlUserThreadStart [0x00007FFDFA50AF38+40]
+
+2024-12-25 05:13:00,684 - INFO - WebDriver closed
+2024-12-25 05:13:00,734 - INFO - 127.0.0.1 - - [25/Dec/2024 05:13:00] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-25 05:13:31,143 - INFO - TwitterScraper initialized
+2024-12-25 05:13:31,143 - INFO - Starting trending topics extraction
+2024-12-25 05:13:31,144 - INFO - Setting up WebDriver
+2024-12-25 05:13:32,825 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 05:13:32,825 - INFO - Attempting Twitter login
+2024-12-25 05:13:44,798 - INFO - username added
+2024-12-25 05:13:46,547 - INFO - password added
+2024-12-25 05:13:51,493 - INFO - Successfully logged into Twitter
+2024-12-25 05:13:51,528 - ERROR - Error during scraping: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[text()='What's happening'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[text()='What's happening']' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BD92FB05+28789]
+	(No symbol) [0x00007FF6BD8986E0]
+	(No symbol) [0x00007FF6BD73592A]
+	(No symbol) [0x00007FF6BD73C48F]
+	(No symbol) [0x00007FF6BD73F13C]
+	(No symbol) [0x00007FF6BD73F20F]
+	(No symbol) [0x00007FF6BD788DBA]
+	(No symbol) [0x00007FF6BD7895FC]
+	(No symbol) [0x00007FF6BD7D28A7]
+	(No symbol) [0x00007FF6BD7AF47F]
+	(No symbol) [0x00007FF6BD7CF654]
+	(No symbol) [0x00007FF6BD7AF1E3]
+	(No symbol) [0x00007FF6BD77A938]
+	(No symbol) [0x00007FF6BD77BAA1]
+	GetHandleVerifier [0x00007FF6BDC6933D+3410093]
+	GetHandleVerifier [0x00007FF6BDC7E7DD+3497293]
+	GetHandleVerifier [0x00007FF6BDC72A73+3448803]
+	GetHandleVerifier [0x00007FF6BD9F7BBB+848171]
+	(No symbol) [0x00007FF6BD8A3C3F]
+	(No symbol) [0x00007FF6BD89F6E4]
+	(No symbol) [0x00007FF6BD89F87D]
+	(No symbol) [0x00007FF6BD88ED49]
+	BaseThreadInitThunk [0x00007FFDF896259D+29]
+	RtlUserThreadStart [0x00007FFDFA50AF38+40]
+
+2024-12-25 05:13:53,791 - INFO - WebDriver closed
+2024-12-25 05:13:53,834 - INFO - 127.0.0.1 - - [25/Dec/2024 05:13:53] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-25 05:17:37,746 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\app.py', reloading
+2024-12-25 05:17:50,956 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 05:17:50,956 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 05:17:50,960 - INFO -  * Restarting with stat
+2024-12-25 05:17:52,531 - WARNING -  * Debugger is active!
+2024-12-25 05:17:52,536 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:17:54,338 - INFO - 127.0.0.1 - - [25/Dec/2024 05:17:54] "GET / HTTP/1.1" 200 -
+2024-12-25 05:17:57,872 - INFO - TwitterScraper initialized with custom database configuration
+2024-12-25 05:17:57,872 - INFO - Starting trending topics extraction
+2024-12-25 05:17:57,872 - INFO - Setting up WebDriver
+2024-12-25 05:17:59,784 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 05:17:59,785 - INFO - Attempting Twitter login
+2024-12-25 05:18:21,017 - INFO - Successfully logged into Twitter
+2024-12-25 05:18:28,126 - INFO - Waiting for trends to load
+2024-12-25 05:18:48,205 - ERROR - Error during scraping: Message: 
+
+2024-12-25 05:18:50,788 - INFO - WebDriver closed
+2024-12-25 05:18:50,789 - INFO - 127.0.0.1 - - [25/Dec/2024 05:18:50] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 05:21:42,188 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\app.py', reloading
+2024-12-25 05:21:50,134 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 05:21:50,135 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 05:21:50,138 - INFO -  * Restarting with stat
+2024-12-25 05:21:51,480 - WARNING -  * Debugger is active!
+2024-12-25 05:21:51,485 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:21:51,736 - INFO - 127.0.0.1 - - [25/Dec/2024 05:21:51] "GET / HTTP/1.1" 200 -
+2024-12-25 05:21:54,569 - INFO - TwitterScraper initialized with custom database configuration
+2024-12-25 05:21:54,569 - INFO - Starting trending topics extraction
+2024-12-25 05:21:54,569 - INFO - Setting up WebDriver
+2024-12-25 05:21:56,243 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 05:21:56,243 - INFO - Attempting Twitter login
+2024-12-25 05:22:15,586 - INFO - Successfully logged into Twitter
+2024-12-25 05:22:42,263 - ERROR - Error during scraping: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BD92FB05+28789]
+	(No symbol) [0x00007FF6BD8986E0]
+	(No symbol) [0x00007FF6BD73592A]
+	(No symbol) [0x00007FF6BD78930E]
+	(No symbol) [0x00007FF6BD7895FC]
+	(No symbol) [0x00007FF6BD7D28A7]
+	(No symbol) [0x00007FF6BD7AF47F]
+	(No symbol) [0x00007FF6BD7CF654]
+	(No symbol) [0x00007FF6BD7AF1E3]
+	(No symbol) [0x00007FF6BD77A938]
+	(No symbol) [0x00007FF6BD77BAA1]
+	GetHandleVerifier [0x00007FF6BDC6933D+3410093]
+	GetHandleVerifier [0x00007FF6BDC7E7DD+3497293]
+	GetHandleVerifier [0x00007FF6BDC72A73+3448803]
+	GetHandleVerifier [0x00007FF6BD9F7BBB+848171]
+	(No symbol) [0x00007FF6BD8A3C3F]
+	(No symbol) [0x00007FF6BD89F6E4]
+	(No symbol) [0x00007FF6BD89F87D]
+	(No symbol) [0x00007FF6BD88ED49]
+	BaseThreadInitThunk [0x00007FFDF896259D+29]
+	RtlUserThreadStart [0x00007FFDFA50AF38+40]
+
+2024-12-25 05:22:44,817 - INFO - WebDriver closed
+2024-12-25 05:22:44,818 - INFO - 127.0.0.1 - - [25/Dec/2024 05:22:44] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 05:27:50,551 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\app.py', reloading
+2024-12-25 05:27:54,791 - INFO -  * Restarting with stat
+2024-12-25 05:27:56,489 - WARNING -  * Debugger is active!
+2024-12-25 05:27:56,495 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:35:02,795 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\app.py', reloading
+2024-12-25 05:35:03,054 - INFO -  * Restarting with stat
+2024-12-25 05:35:04,688 - WARNING -  * Debugger is active!
+2024-12-25 05:35:04,695 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:35:11,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 05:35:11,137 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 05:35:11,140 - INFO -  * Restarting with stat
+2024-12-25 05:35:12,463 - WARNING -  * Debugger is active!
+2024-12-25 05:35:12,469 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:35:13,987 - INFO - 127.0.0.1 - - [25/Dec/2024 05:35:13] "GET / HTTP/1.1" 200 -
+2024-12-25 05:35:17,604 - INFO - TwitterScraper initialized with custom database configuration
+2024-12-25 05:35:17,605 - INFO - Starting trending topics extraction
+2024-12-25 05:35:17,605 - INFO - Setting up WebDriver
+2024-12-25 05:35:19,650 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 05:35:19,650 - INFO - Attempting Twitter login
+2024-12-25 05:35:39,942 - INFO - Successfully logged into Twitter
+2024-12-25 05:35:47,044 - INFO - Found trend: Politics · Trending
+2024-12-25 05:35:47,075 - INFO - Found trend: Entertainment · Trending
+2024-12-25 05:35:47,118 - INFO - Found trend: #TaxTerrorism
+2024-12-25 05:35:47,146 - INFO - Found trend: Business & finance · Trending
+2024-12-25 05:35:47,157 - INFO - Successfully saved trends to MongoDB with ID: fed0c255-14c7-4432-8a27-c6702a89df16
+2024-12-25 05:35:49,579 - INFO - WebDriver closed
+2024-12-25 05:35:49,580 - INFO - 127.0.0.1 - - [25/Dec/2024 05:35:49] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 05:36:37,366 - INFO - TwitterScraper initialized with custom database configuration
+2024-12-25 05:36:37,366 - INFO - Starting trending topics extraction
+2024-12-25 05:36:37,366 - INFO - Setting up WebDriver
+2024-12-25 05:36:39,143 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 05:36:39,143 - INFO - Attempting Twitter login
+2024-12-25 05:36:58,918 - INFO - Successfully logged into Twitter
+2024-12-25 05:37:06,133 - INFO - Found trend: Politics · Trending
+2024-12-25 05:37:06,161 - INFO - Found trend: Entertainment · Trending
+2024-12-25 05:37:06,189 - INFO - Found trend: Business & finance · Trending
+2024-12-25 05:37:06,232 - INFO - Found trend: #TaxTerrorism
+2024-12-25 05:37:06,250 - INFO - Successfully saved trends to MongoDB with ID: 323016c0-f60c-42bf-adf4-58b4676337b3
+2024-12-25 05:37:08,648 - INFO - WebDriver closed
+2024-12-25 05:37:08,649 - INFO - 127.0.0.1 - - [25/Dec/2024 05:37:08] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 05:45:24,464 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 05:45:24,464 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 05:45:24,467 - INFO -  * Restarting with stat
+2024-12-25 05:45:25,755 - WARNING -  * Debugger is active!
+2024-12-25 05:45:25,760 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:45:52,310 - INFO - 127.0.0.1 - - [25/Dec/2024 05:45:52] "GET / HTTP/1.1" 200 -
+2024-12-25 05:45:54,159 - INFO - TwitterScraper initialized with custom database configuration
+2024-12-25 05:45:54,160 - INFO - Starting trending topics extraction
+2024-12-25 05:45:54,160 - INFO - Setting up WebDriver
+2024-12-25 05:45:56,181 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 05:45:56,181 - INFO - Attempting Twitter login
+2024-12-25 05:46:16,158 - INFO - Successfully logged into Twitter
+2024-12-25 05:46:23,046 - INFO - Found trend: Politics · Trending
+2024-12-25 05:46:23,076 - INFO - Found trend: Business & finance · Trending
+2024-12-25 05:46:23,109 - INFO - Found trend: Trending in India
+2024-12-25 05:46:23,154 - INFO - Found trend: #TaxTerrorism
+2024-12-25 05:46:23,182 - INFO - Successfully saved trends to MongoDB with ID: 7d220add-0a08-4ebd-8036-1d6047a92728
+2024-12-25 05:46:25,638 - INFO - WebDriver closed
+2024-12-25 05:46:25,639 - INFO - 127.0.0.1 - - [25/Dec/2024 05:46:25] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 05:50:25,785 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 05:50:25,785 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 05:50:25,791 - INFO -  * Restarting with stat
+2024-12-25 05:50:27,044 - WARNING -  * Debugger is active!
+2024-12-25 05:50:27,049 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:50:32,454 - INFO - 127.0.0.1 - - [25/Dec/2024 05:50:32] "GET / HTTP/1.1" 200 -
+2024-12-25 05:50:34,670 - INFO - 127.0.0.1 - - [25/Dec/2024 05:50:34] "[33mGET /run-script HTTP/1.1[0m" 404 -
+2024-12-25 05:50:51,902 - INFO - 127.0.0.1 - - [25/Dec/2024 05:50:51] "GET / HTTP/1.1" 200 -
+2024-12-25 05:50:55,413 - INFO - TwitterScraper initialized with custom database configuration
+2024-12-25 05:50:55,414 - INFO - Starting trending topics extraction
+2024-12-25 05:50:55,414 - INFO - Setting up WebDriver
+2024-12-25 05:50:57,190 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 05:50:57,191 - INFO - Attempting Twitter login
+2024-12-25 05:51:16,816 - INFO - Successfully logged into Twitter
+2024-12-25 05:51:25,493 - INFO - Found trend: Business & finance · Trending
+2024-12-25 05:51:25,522 - INFO - Found trend: Politics · Trending
+2024-12-25 05:51:25,577 - INFO - Found trend: #NirmalaSitharaman
+2024-12-25 05:51:25,610 - INFO - Found trend: Entertainment · Trending
+2024-12-25 05:51:25,640 - INFO - Successfully saved trends to MongoDB with ID: 242caf97-51c8-4794-a19f-ab74f183619f
+2024-12-25 05:51:28,103 - INFO - WebDriver closed
+2024-12-25 05:51:28,104 - INFO - 127.0.0.1 - - [25/Dec/2024 05:51:28] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 05:53:23,784 - INFO - 127.0.0.1 - - [25/Dec/2024 05:53:23] "GET / HTTP/1.1" 200 -
+2024-12-25 05:53:25,875 - INFO - 127.0.0.1 - - [25/Dec/2024 05:53:25] "[33mGET /run-script HTTP/1.1[0m" 404 -
+2024-12-25 05:53:34,644 - INFO - 127.0.0.1 - - [25/Dec/2024 05:53:34] "GET / HTTP/1.1" 200 -
+2024-12-25 05:56:26,170 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\app.py', reloading
+2024-12-25 05:56:35,391 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 05:56:35,391 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 05:56:35,394 - INFO -  * Restarting with stat
+2024-12-25 05:56:37,198 - WARNING -  * Debugger is active!
+2024-12-25 05:56:37,206 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:56:40,287 - INFO - 127.0.0.1 - - [25/Dec/2024 05:56:40] "GET / HTTP/1.1" 200 -
+2024-12-25 05:56:42,071 - INFO - 127.0.0.1 - - [25/Dec/2024 05:56:42] "GET / HTTP/1.1" 200 -
+2024-12-25 05:56:43,475 - INFO - TwitterScraper initialized
+2024-12-25 05:56:43,475 - INFO - Starting trending topics extraction
+2024-12-25 05:56:43,475 - INFO - Setting up WebDriver with new proxy
+2024-12-25 05:56:43,475 - INFO - Selected proxy: us-tx.proxymesh.com:31280
+2024-12-25 05:56:48,068 - INFO - Attempting Twitter login
+2024-12-25 05:57:08,605 - INFO - Successfully logged into Twitter
+2024-12-25 05:57:15,524 - ERROR - Error during scraping: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //h2[contains(text(), 'What's happening')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h2[contains(text(), 'What's happening')]' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73F96FB05+28789]
+	(No symbol) [0x00007FF73F8D86E0]
+	(No symbol) [0x00007FF73F77592A]
+	(No symbol) [0x00007FF73F77C48F]
+	(No symbol) [0x00007FF73F77F13C]
+	(No symbol) [0x00007FF73F77F20F]
+	(No symbol) [0x00007FF73F7C8DBA]
+	(No symbol) [0x00007FF73F7C95FC]
+	(No symbol) [0x00007FF73F8128A7]
+	(No symbol) [0x00007FF73F7EF47F]
+	(No symbol) [0x00007FF73F80F654]
+	(No symbol) [0x00007FF73F7EF1E3]
+	(No symbol) [0x00007FF73F7BA938]
+	(No symbol) [0x00007FF73F7BBAA1]
+	GetHandleVerifier [0x00007FF73FCA933D+3410093]
+	GetHandleVerifier [0x00007FF73FCBE7DD+3497293]
+	GetHandleVerifier [0x00007FF73FCB2A73+3448803]
+	GetHandleVerifier [0x00007FF73FA37BBB+848171]
+	(No symbol) [0x00007FF73F8E3C3F]
+	(No symbol) [0x00007FF73F8DF6E4]
+	(No symbol) [0x00007FF73F8DF87D]
+	(No symbol) [0x00007FF73F8CED49]
+	BaseThreadInitThunk [0x00007FFDF896259D+29]
+	RtlUserThreadStart [0x00007FFDFA50AF38+40]
+
+2024-12-25 05:57:17,946 - INFO - WebDriver closed
+2024-12-25 05:57:17,947 - INFO - 127.0.0.1 - - [25/Dec/2024 05:57:17] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 05:57:33,918 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\app.py', reloading
+2024-12-25 05:57:38,166 - INFO -  * Restarting with stat
+2024-12-25 05:57:39,776 - WARNING -  * Debugger is active!
+2024-12-25 05:57:39,782 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 05:57:40,127 - INFO - 127.0.0.1 - - [25/Dec/2024 05:57:40] "GET / HTTP/1.1" 200 -
+2024-12-25 05:57:45,207 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\app.py', reloading
+2024-12-25 05:57:45,363 - INFO -  * Restarting with stat
