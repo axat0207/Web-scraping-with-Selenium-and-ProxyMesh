@@ -1,11 +1,15 @@
+# webdriver_manager.py
 from selenium import webdriver
 import os
 import logging
 from config import Config
+from proxy_manager import ProxyManager
 
 class WebDriverManager:
+    proxy_manager = ProxyManager()
+
     @staticmethod
-    def create_proxy_plugin():
+    def create_proxy_plugin(proxy_config):
         manifest_json = """
         {
             "version": "1.0.0",
@@ -31,8 +35,8 @@ class WebDriverManager:
             rules: {{
                 singleProxy: {{
                     scheme: "http",
-                    host: "{Config.PROXY_HOST}",
-                    port: {Config.PROXY_PORT}
+                    host: "{proxy_config['host']}",
+                    port: parseInt("{proxy_config['port']}")
                 }}
             }}
         }};
@@ -42,8 +46,8 @@ class WebDriverManager:
         function callbackFn(details) {{
             return {{
                 authCredentials: {{
-                    username: "{Config.PROXY_USERNAME}",
-                    password: "{Config.PROXY_PASSWORD}"
+                    username: "{proxy_config['username']}",
+                    password: "{proxy_config['password']}"
                 }}
             }};
         }}
@@ -69,8 +73,9 @@ class WebDriverManager:
 
     @staticmethod
     def get_driver():
+        proxy_config = WebDriverManager.proxy_manager.get_next_proxy()
         options = webdriver.ChromeOptions()
-        plugin_path = WebDriverManager.create_proxy_plugin()
+        plugin_path = WebDriverManager.create_proxy_plugin(proxy_config)
         
         options.add_argument(f'--load-extension={plugin_path}')
         options.add_argument('--no-sandbox')
@@ -80,7 +85,7 @@ class WebDriverManager:
         options.add_argument('--disable-notifications')
         
         driver = webdriver.Chrome(options=options)
-        proxy_string = f"{Config.PROXY_HOST}:{Config.PROXY_PORT}"
+        proxy_string = f"{proxy_config['host']}:{proxy_config['port']}"
         
         logging.info(f'WebDriver setup complete with proxy: {proxy_string}')
         return driver, proxy_string

@@ -350,3 +350,422 @@ Stacktrace:
 2024-12-25 06:11:31,251 - INFO - Record inserted with ID: dcacfc19-62a9-4976-8bb7-14d638c4a6c7
 2024-12-25 06:11:33,664 - INFO - WebDriver closed
 2024-12-25 06:11:33,665 - INFO - 127.0.0.1 - - [25/Dec/2024 06:11:33] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 06:27:23,436 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 06:27:23,437 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 06:27:23,441 - INFO -  * Restarting with stat
+2024-12-25 06:27:24,757 - WARNING -  * Debugger is active!
+2024-12-25 06:27:24,763 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 06:27:33,029 - INFO - 127.0.0.1 - - [25/Dec/2024 06:27:33] "GET / HTTP/1.1" 200 -
+2024-12-25 06:27:33,378 - INFO - 127.0.0.1 - - [25/Dec/2024 06:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-25 06:27:35,353 - INFO - Database connection initialized
+2024-12-25 06:27:35,353 - INFO - TwitterScraper initialized
+2024-12-25 06:27:35,353 - INFO - Starting trending topics extraction
+2024-12-25 06:27:38,015 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 06:27:38,015 - INFO - Attempting Twitter login
+2024-12-25 06:27:59,203 - INFO - Successfully logged into Twitter
+2024-12-25 06:28:06,015 - INFO - Found trend: Trending in India
+2024-12-25 06:28:06,086 - INFO - Found trend: Politics · Trending
+2024-12-25 06:28:06,131 - INFO - Found trend: \u0905\u0935\u0927 \u0913\u091d\u093e
+2024-12-25 06:28:06,158 - INFO - Found trend: Sports · Trending
+2024-12-25 06:28:06,182 - INFO - Record inserted with ID: 431fdc24-0779-425c-8504-e41ad2a80c88
+2024-12-25 06:28:08,644 - INFO - WebDriver closed
+2024-12-25 06:28:08,645 - INFO - 127.0.0.1 - - [25/Dec/2024 06:28:08] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 07:00:36,804 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\webdriver_manager.py', reloading
+2024-12-25 07:00:41,096 - INFO -  * Restarting with stat
+2024-12-25 07:00:42,807 - WARNING -  * Debugger is active!
+2024-12-25 07:00:42,810 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 07:01:20,538 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 07:01:20,538 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 07:01:20,539 - INFO -  * Restarting with stat
+2024-12-25 07:01:21,560 - WARNING -  * Debugger is active!
+2024-12-25 07:01:21,563 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 07:01:24,747 - INFO - 127.0.0.1 - - [25/Dec/2024 07:01:24] "GET / HTTP/1.1" 200 -
+2024-12-25 07:01:25,995 - INFO - Database connection initialized
+2024-12-25 07:01:25,995 - INFO - TwitterScraper initialized
+2024-12-25 07:01:25,995 - INFO - Starting trending topics extraction
+2024-12-25 07:01:25,996 - INFO - Attempting to connect using proxy: us-fl.proxymesh.com
+2024-12-25 07:01:26,799 - WARNING - Proxy attempt 1 failed, trying another endpoint
+2024-12-25 07:01:26,799 - INFO - Attempting to connect using proxy: us-ny.proxymesh.com
+2024-12-25 07:01:27,593 - WARNING - Proxy attempt 2 failed, trying another endpoint
+2024-12-25 07:01:27,593 - INFO - Attempting to connect using proxy: us-il.proxymesh.com
+2024-12-25 07:01:28,327 - WARNING - Proxy attempt 3 failed, trying another endpoint
+2024-12-25 07:01:28,345 - INFO - 127.0.0.1 - - [25/Dec/2024 07:01:28] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-25 07:01:36,192 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\webdriver_manager.py', reloading
+2024-12-25 07:01:36,646 - INFO -  * Restarting with stat
+2024-12-25 07:01:37,377 - WARNING -  * Debugger is active!
+2024-12-25 07:01:37,381 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 07:01:38,659 - INFO - 127.0.0.1 - - [25/Dec/2024 07:01:38] "GET / HTTP/1.1" 200 -
+2024-12-25 07:01:39,428 - INFO - Database connection initialized
+2024-12-25 07:01:39,429 - INFO - TwitterScraper initialized
+2024-12-25 07:01:39,429 - INFO - Starting trending topics extraction
+2024-12-25 07:01:43,411 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 07:01:43,411 - INFO - Attempting Twitter login
+2024-12-25 07:02:05,164 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F781FB05+28789]
+	(No symbol) [0x00007FF6F77886E0]
+	(No symbol) [0x00007FF6F762592A]
+	(No symbol) [0x00007FF6F767930E]
+	(No symbol) [0x00007FF6F76795FC]
+	(No symbol) [0x00007FF6F76C28A7]
+	(No symbol) [0x00007FF6F769F47F]
+	(No symbol) [0x00007FF6F76BF654]
+	(No symbol) [0x00007FF6F769F1E3]
+	(No symbol) [0x00007FF6F766A938]
+	(No symbol) [0x00007FF6F766BAA1]
+	GetHandleVerifier [0x00007FF6F7B5933D+3410093]
+	GetHandleVerifier [0x00007FF6F7B6E7DD+3497293]
+	GetHandleVerifier [0x00007FF6F7B62A73+3448803]
+	GetHandleVerifier [0x00007FF6F78E7BBB+848171]
+	(No symbol) [0x00007FF6F7793C3F]
+	(No symbol) [0x00007FF6F778F6E4]
+	(No symbol) [0x00007FF6F778F87D]
+	(No symbol) [0x00007FF6F777ED49]
+	BaseThreadInitThunk [0x00007FFDF896259D+29]
+	RtlUserThreadStart [0x00007FFDFA50AF38+40]
+
+2024-12-25 07:02:05,164 - ERROR - Error during scraping: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F781FB05+28789]
+	(No symbol) [0x00007FF6F77886E0]
+	(No symbol) [0x00007FF6F762592A]
+	(No symbol) [0x00007FF6F767930E]
+	(No symbol) [0x00007FF6F76795FC]
+	(No symbol) [0x00007FF6F76C28A7]
+	(No symbol) [0x00007FF6F769F47F]
+	(No symbol) [0x00007FF6F76BF654]
+	(No symbol) [0x00007FF6F769F1E3]
+	(No symbol) [0x00007FF6F766A938]
+	(No symbol) [0x00007FF6F766BAA1]
+	GetHandleVerifier [0x00007FF6F7B5933D+3410093]
+	GetHandleVerifier [0x00007FF6F7B6E7DD+3497293]
+	GetHandleVerifier [0x00007FF6F7B62A73+3448803]
+	GetHandleVerifier [0x00007FF6F78E7BBB+848171]
+	(No symbol) [0x00007FF6F7793C3F]
+	(No symbol) [0x00007FF6F778F6E4]
+	(No symbol) [0x00007FF6F778F87D]
+	(No symbol) [0x00007FF6F777ED49]
+	BaseThreadInitThunk [0x00007FFDF896259D+29]
+	RtlUserThreadStart [0x00007FFDFA50AF38+40]
+
+2024-12-25 07:02:07,326 - INFO - WebDriver closed
+2024-12-25 07:02:07,326 - INFO - 127.0.0.1 - - [25/Dec/2024 07:02:07] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 07:02:23,202 - INFO - 127.0.0.1 - - [25/Dec/2024 07:02:23] "GET / HTTP/1.1" 200 -
+2024-12-25 07:02:23,907 - INFO - Database connection initialized
+2024-12-25 07:02:23,907 - INFO - TwitterScraper initialized
+2024-12-25 07:02:23,907 - INFO - Starting trending topics extraction
+2024-12-25 07:02:25,302 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 07:02:25,302 - INFO - Attempting Twitter login
+2024-12-25 07:02:47,054 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F781FB05+28789]
+	(No symbol) [0x00007FF6F77886E0]
+	(No symbol) [0x00007FF6F762592A]
+	(No symbol) [0x00007FF6F767930E]
+	(No symbol) [0x00007FF6F76795FC]
+	(No symbol) [0x00007FF6F76C28A7]
+	(No symbol) [0x00007FF6F769F47F]
+	(No symbol) [0x00007FF6F76BF654]
+	(No symbol) [0x00007FF6F769F1E3]
+	(No symbol) [0x00007FF6F766A938]
+	(No symbol) [0x00007FF6F766BAA1]
+	GetHandleVerifier [0x00007FF6F7B5933D+3410093]
+	GetHandleVerifier [0x00007FF6F7B6E7DD+3497293]
+	GetHandleVerifier [0x00007FF6F7B62A73+3448803]
+	GetHandleVerifier [0x00007FF6F78E7BBB+848171]
+	(No symbol) [0x00007FF6F7793C3F]
+	(No symbol) [0x00007FF6F778F6E4]
+	(No symbol) [0x00007FF6F778F87D]
+	(No symbol) [0x00007FF6F777ED49]
+	BaseThreadInitThunk [0x00007FFDF896259D+29]
+	RtlUserThreadStart [0x00007FFDFA50AF38+40]
+
+2024-12-25 07:02:47,055 - ERROR - Error during scraping: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F781FB05+28789]
+	(No symbol) [0x00007FF6F77886E0]
+	(No symbol) [0x00007FF6F762592A]
+	(No symbol) [0x00007FF6F767930E]
+	(No symbol) [0x00007FF6F76795FC]
+	(No symbol) [0x00007FF6F76C28A7]
+	(No symbol) [0x00007FF6F769F47F]
+	(No symbol) [0x00007FF6F76BF654]
+	(No symbol) [0x00007FF6F769F1E3]
+	(No symbol) [0x00007FF6F766A938]
+	(No symbol) [0x00007FF6F766BAA1]
+	GetHandleVerifier [0x00007FF6F7B5933D+3410093]
+	GetHandleVerifier [0x00007FF6F7B6E7DD+3497293]
+	GetHandleVerifier [0x00007FF6F7B62A73+3448803]
+	GetHandleVerifier [0x00007FF6F78E7BBB+848171]
+	(No symbol) [0x00007FF6F7793C3F]
+	(No symbol) [0x00007FF6F778F6E4]
+	(No symbol) [0x00007FF6F778F87D]
+	(No symbol) [0x00007FF6F777ED49]
+	BaseThreadInitThunk [0x00007FFDF896259D+29]
+	RtlUserThreadStart [0x00007FFDFA50AF38+40]
+
+2024-12-25 07:02:49,202 - INFO - WebDriver closed
+2024-12-25 07:02:49,203 - INFO - 127.0.0.1 - - [25/Dec/2024 07:02:49] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 07:02:50,278 - INFO - Database connection initialized
+2024-12-25 07:02:50,278 - INFO - TwitterScraper initialized
+2024-12-25 07:02:50,278 - INFO - Starting trending topics extraction
+2024-12-25 07:02:51,596 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 07:02:51,597 - INFO - Attempting Twitter login
+2024-12-25 07:03:18,327 - INFO - Successfully logged into Twitter
+2024-12-25 07:03:24,825 - INFO - Found trend: Trending in India
+2024-12-25 07:03:24,844 - INFO - Found trend: Politics · Trending
+2024-12-25 07:03:24,872 - INFO - Found trend: \u0905\u0935\u0927 \u0913\u091d\u093e
+2024-12-25 07:03:24,916 - INFO - Found trend: #TaxTerrorism
+2024-12-25 07:03:24,919 - INFO - Record inserted with ID: ab507048-96fd-4f60-aa0b-0efac5e0c381
+2024-12-25 07:03:27,105 - INFO - WebDriver closed
+2024-12-25 07:03:27,106 - INFO - 127.0.0.1 - - [25/Dec/2024 07:03:27] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 07:03:38,085 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\webdriver_manager.py', reloading
+2024-12-25 07:03:50,429 - INFO -  * Restarting with stat
+2024-12-25 07:03:51,973 - WARNING -  * Debugger is active!
+2024-12-25 07:03:51,976 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 07:03:52,096 - INFO - 127.0.0.1 - - [25/Dec/2024 07:03:52] "GET / HTTP/1.1" 200 -
+2024-12-25 07:03:52,099 - INFO - 127.0.0.1 - - [25/Dec/2024 07:03:52] "GET / HTTP/1.1" 200 -
+2024-12-25 07:03:52,110 - INFO - Database connection initialized
+2024-12-25 07:03:52,110 - INFO - TwitterScraper initialized
+2024-12-25 07:03:52,111 - INFO - Starting trending topics extraction
+2024-12-25 07:03:52,111 - INFO - Attempting to connect using proxy: us.proxymesh.com
+2024-12-25 07:03:52,833 - WARNING - Proxy attempt 1 failed, trying another endpoint
+2024-12-25 07:03:52,833 - INFO - Attempting to connect using proxy: jp.proxymesh.com
+2024-12-25 07:03:53,170 - INFO - Database connection initialized
+2024-12-25 07:03:53,170 - INFO - TwitterScraper initialized
+2024-12-25 07:03:53,170 - INFO - Starting trending topics extraction
+2024-12-25 07:03:53,171 - INFO - Attempting to connect using proxy: us-ca.proxymesh.com
+2024-12-25 07:03:53,334 - WARNING - Proxy attempt 2 failed, trying another endpoint
+2024-12-25 07:03:53,334 - INFO - Attempting to connect using proxy: us-fl.proxymesh.com
+2024-12-25 07:03:53,869 - WARNING - Proxy attempt 1 failed, trying another endpoint
+2024-12-25 07:03:53,869 - INFO - Attempting to connect using proxy: au.proxymesh.com
+2024-12-25 07:03:53,928 - WARNING - Proxy attempt 3 failed, trying another endpoint
+2024-12-25 07:03:53,947 - INFO - 127.0.0.1 - - [25/Dec/2024 07:03:53] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-25 07:03:54,391 - WARNING - Proxy attempt 2 failed, trying another endpoint
+2024-12-25 07:03:54,391 - INFO - Attempting to connect using proxy: us-ny.proxymesh.com
+2024-12-25 07:03:55,122 - WARNING - Proxy attempt 3 failed, trying another endpoint
+2024-12-25 07:03:55,134 - INFO - 127.0.0.1 - - [25/Dec/2024 07:03:55] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-25 16:23:40,041 - INFO - Database connection initialized
+2024-12-25 16:23:40,142 - INFO - TwitterScraper initialized
+2024-12-25 16:23:40,142 - INFO - Starting trending topics extraction
+2024-12-25 16:23:40,143 - INFO - Attempting to connect using proxy: sg.proxymesh.com
+2024-12-25 16:23:41,320 - WARNING - Proxy attempt 1 failed, trying another endpoint
+2024-12-25 16:23:41,321 - INFO - Attempting to connect using proxy: us-il.proxymesh.com
+2024-12-25 16:23:43,323 - WARNING - Proxy attempt 2 failed, trying another endpoint
+2024-12-25 16:23:43,323 - INFO - Attempting to connect using proxy: jp.proxymesh.com
+2024-12-25 16:23:44,064 - WARNING - Proxy attempt 3 failed, trying another endpoint
+2024-12-25 16:23:44,096 - INFO - 127.0.0.1 - - [25/Dec/2024 16:23:44] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-25 16:23:57,955 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\webdriver_manager.py', reloading
+2024-12-25 16:23:58,672 - INFO -  * Restarting with stat
+2024-12-25 16:24:00,598 - WARNING -  * Debugger is active!
+2024-12-25 16:24:00,603 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 16:24:06,273 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 16:24:06,274 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 16:24:06,276 - INFO -  * Restarting with stat
+2024-12-25 16:24:07,439 - WARNING -  * Debugger is active!
+2024-12-25 16:24:07,444 - INFO -  * Debugger PIN: 865-559-061
+2024-12-25 16:24:09,475 - INFO - 127.0.0.1 - - [25/Dec/2024 16:24:09] "GET / HTTP/1.1" 200 -
+2024-12-25 16:24:12,265 - INFO - Database connection initialized
+2024-12-25 16:24:12,266 - INFO - TwitterScraper initialized
+2024-12-25 16:24:12,266 - INFO - Starting trending topics extraction
+2024-12-25 16:24:17,039 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 16:24:17,039 - INFO - Attempting Twitter login
+2024-12-25 16:24:44,340 - INFO - Successfully logged into Twitter
+2024-12-25 16:24:51,099 - INFO - Found trend: Trending in India
+2024-12-25 16:24:51,179 - INFO - Found trend: #Kazakhstan
+2024-12-25 16:24:51,211 - INFO - Found trend: Entertainment · Trending
+2024-12-25 16:24:51,242 - INFO - Found trend: Business & finance · Trending
+2024-12-25 16:24:51,271 - INFO - Record inserted with ID: 0800ecd2-3523-4e74-abae-495051a32917
+2024-12-25 16:24:53,694 - INFO - WebDriver closed
+2024-12-25 16:24:53,695 - INFO - 127.0.0.1 - - [25/Dec/2024 16:24:53] "GET /scrape HTTP/1.1" 200 -
+2024-12-25 16:24:59,301 - INFO - Database connection initialized
+2024-12-25 16:24:59,302 - INFO - TwitterScraper initialized
+2024-12-25 16:24:59,302 - INFO - Starting trending topics extraction
+2024-12-25 16:25:01,030 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-25 16:25:01,030 - INFO - Attempting Twitter login
+2024-12-25 16:25:28,727 - INFO - Successfully logged into Twitter
+2024-12-25 16:25:35,320 - INFO - Found trend: Trending in India
+2024-12-25 16:25:35,372 - INFO - Found trend: #Kazakhstan
+2024-12-25 16:25:35,444 - INFO - Found trend: Business & finance · Trending
+2024-12-25 16:25:35,477 - INFO - Found trend: Entertainment · Trending
+2024-12-25 16:25:35,507 - INFO - Record inserted with ID: b4f12ea4-e974-46ed-8a50-5a261ffa7666
+2024-12-25 16:25:38,004 - INFO - WebDriver closed
+2024-12-25 16:25:38,005 - INFO - 127.0.0.1 - - [25/Dec/2024 16:25:38] "GET /scrape HTTP/1.1" 200 -
+2024-12-26 02:15:23,162 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-26 02:15:23,195 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-26 02:15:23,198 - INFO -  * Restarting with stat
+2024-12-26 02:15:24,696 - WARNING -  * Debugger is active!
+2024-12-26 02:15:24,706 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 02:15:38,189 - INFO - 127.0.0.1 - - [26/Dec/2024 02:15:38] "GET / HTTP/1.1" 200 -
+2024-12-26 02:15:43,413 - INFO - Database connection initialized
+2024-12-26 02:15:43,413 - INFO - TwitterScraper initialized
+2024-12-26 02:15:43,413 - INFO - Starting trending topics extraction
+2024-12-26 02:15:48,749 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-26 02:15:48,750 - INFO - Attempting Twitter login
+2024-12-26 02:16:17,216 - INFO - Successfully logged into Twitter
+2024-12-26 02:16:24,088 - INFO - Found trend: Trending in India
+2024-12-26 02:16:24,114 - INFO - Found trend: Entertainment · Trending
+2024-12-26 02:16:24,151 - INFO - Found trend: Politics · Trending
+2024-12-26 02:16:24,210 - INFO - Found trend: #\u092e\u0928\u0941\u0938\u094d\u092e\u0943\u0924\u093f_\u0905\u092e\u0930\u0917\u094d\u0930\u0902\u0925_\u0939\u0948
+2024-12-26 02:16:24,241 - INFO - Record inserted with ID: e9530601-2244-4381-93ca-6df1486e6c3d
+2024-12-26 02:16:26,595 - INFO - WebDriver closed
+2024-12-26 02:16:26,597 - INFO - 127.0.0.1 - - [26/Dec/2024 02:16:26] "GET /scrape HTTP/1.1" 200 -
+2024-12-26 02:17:18,848 - INFO - Database connection initialized
+2024-12-26 02:17:18,848 - INFO - TwitterScraper initialized
+2024-12-26 02:17:18,848 - INFO - Starting trending topics extraction
+2024-12-26 02:17:20,569 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-26 02:17:20,569 - INFO - Attempting Twitter login
+2024-12-26 02:17:47,150 - INFO - Successfully logged into Twitter
+2024-12-26 02:17:53,976 - INFO - Found trend: Trending in India
+2024-12-26 02:17:54,018 - INFO - Found trend: Politics · Trending
+2024-12-26 02:17:54,092 - INFO - Found trend: #\u0b95\u0bbe\u0bb2\u0bae\u0bbe\u0ba9\u0bbe\u0bb0\u0bcd_\u0bb5\u0bbf\u0b9c\u0baf\u0bcd
+2024-12-26 02:17:54,123 - INFO - Found trend: Trending
+2024-12-26 02:17:54,139 - INFO - Record inserted with ID: 70caf8c1-2580-4db9-8f4d-d241847aac40
+2024-12-26 02:17:56,540 - INFO - WebDriver closed
+2024-12-26 02:17:56,541 - INFO - 127.0.0.1 - - [26/Dec/2024 02:17:56] "GET /scrape HTTP/1.1" 200 -
+2024-12-26 16:58:21,098 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\twitter_scraper.py', reloading
+2024-12-26 16:58:29,533 - INFO -  * Restarting with stat
+2024-12-26 17:06:52,113 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-26 17:06:52,141 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-26 17:06:52,147 - INFO -  * Restarting with stat
+2024-12-26 17:06:53,203 - WARNING -  * Debugger is active!
+2024-12-26 17:06:53,208 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:08:13,183 - INFO - 127.0.0.1 - - [26/Dec/2024 17:08:13] "GET / HTTP/1.1" 200 -
+2024-12-26 17:08:16,825 - INFO - Database connection initialized
+2024-12-26 17:08:16,825 - INFO - TwitterScraper initialized
+2024-12-26 17:08:16,825 - INFO - Starting trending topics extraction
+2024-12-26 17:08:20,589 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-26 17:08:20,590 - INFO - Attempting Twitter login
+2024-12-26 17:08:29,424 - ERROR - Login failed: type object 'Config' has no attribute 'TWITTER_EMAIL'
+2024-12-26 17:08:29,424 - ERROR - Error during scraping: type object 'Config' has no attribute 'TWITTER_EMAIL'
+2024-12-26 17:08:31,553 - INFO - WebDriver closed
+2024-12-26 17:08:31,554 - INFO - 127.0.0.1 - - [26/Dec/2024 17:08:31] "GET /scrape HTTP/1.1" 200 -
+2024-12-26 17:09:36,138 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\config.py', reloading
+2024-12-26 17:09:40,301 - INFO -  * Restarting with stat
+2024-12-26 17:09:41,408 - WARNING -  * Debugger is active!
+2024-12-26 17:09:41,412 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:11:09,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-26 17:11:09,451 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-26 17:11:09,453 - INFO -  * Restarting with stat
+2024-12-26 17:11:10,175 - WARNING -  * Debugger is active!
+2024-12-26 17:11:10,178 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:12:10,674 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-26 17:12:10,674 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-26 17:12:10,676 - INFO -  * Restarting with stat
+2024-12-26 17:12:11,484 - WARNING -  * Debugger is active!
+2024-12-26 17:12:11,488 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:12:30,697 - INFO - 127.0.0.1 - - [26/Dec/2024 17:12:30] "GET / HTTP/1.1" 200 -
+2024-12-26 17:12:33,045 - INFO - Database connection initialized
+2024-12-26 17:12:33,046 - INFO - TwitterScraper initialized
+2024-12-26 17:12:33,046 - INFO - Starting trending topics extraction
+2024-12-26 17:12:34,637 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-26 17:12:34,637 - INFO - Attempting Twitter login
+2024-12-26 17:12:45,306 - ERROR - Login failed: 'NoneType' object is not iterable
+2024-12-26 17:12:45,306 - ERROR - Error during scraping: 'NoneType' object is not iterable
+2024-12-26 17:12:47,419 - INFO - WebDriver closed
+2024-12-26 17:12:47,419 - INFO - 127.0.0.1 - - [26/Dec/2024 17:12:47] "GET /scrape HTTP/1.1" 200 -
+2024-12-26 17:12:53,089 - INFO - Database connection initialized
+2024-12-26 17:12:53,090 - INFO - TwitterScraper initialized
+2024-12-26 17:12:53,090 - INFO - Starting trending topics extraction
+2024-12-26 17:12:54,392 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-26 17:12:54,392 - INFO - Attempting Twitter login
+2024-12-26 17:13:07,935 - ERROR - Login failed: 'NoneType' object is not iterable
+2024-12-26 17:13:07,935 - ERROR - Error during scraping: 'NoneType' object is not iterable
+2024-12-26 17:13:10,062 - INFO - WebDriver closed
+2024-12-26 17:13:10,062 - INFO - 127.0.0.1 - - [26/Dec/2024 17:13:10] "GET /scrape HTTP/1.1" 200 -
+2024-12-26 17:13:16,366 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\twitter_scraper.py', reloading
+2024-12-26 17:13:24,635 - INFO -  * Restarting with stat
+2024-12-26 17:13:25,299 - WARNING -  * Debugger is active!
+2024-12-26 17:13:25,302 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:13:25,423 - INFO - Database connection initialized
+2024-12-26 17:13:25,423 - INFO - TwitterScraper initialized
+2024-12-26 17:13:25,423 - INFO - Starting trending topics extraction
+2024-12-26 17:13:26,728 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-26 17:13:26,728 - INFO - Attempting Twitter login
+2024-12-26 17:13:45,895 - INFO - Successfully logged into Twitter
+2024-12-26 17:13:52,394 - INFO - Found trend: Trending in India
+2024-12-26 17:13:52,418 - INFO - Found trend: Tatkal
+2024-12-26 17:13:52,433 - INFO - Found trend: Trending
+2024-12-26 17:13:52,450 - INFO - Found trend: Travel · Trending
+2024-12-26 17:13:52,488 - INFO - Record inserted with ID: 77b9e280-6058-4cda-9fc5-3cf0a4584330
+2024-12-26 17:13:54,708 - INFO - WebDriver closed
+2024-12-26 17:13:54,712 - INFO - 127.0.0.1 - - [26/Dec/2024 17:13:54] "GET /scrape HTTP/1.1" 200 -
+2024-12-26 17:13:57,869 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\twitter_scraper.py', reloading
+2024-12-26 17:14:02,068 - INFO -  * Restarting with stat
+2024-12-26 17:14:03,248 - WARNING -  * Debugger is active!
+2024-12-26 17:14:03,251 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:19:50,934 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\webdriver_manager.py', reloading
+2024-12-26 17:19:51,026 - INFO -  * Restarting with stat
+2024-12-26 17:19:52,960 - WARNING -  * Debugger is active!
+2024-12-26 17:19:52,963 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:20:04,133 - INFO - 127.0.0.1 - - [26/Dec/2024 17:20:04] "GET / HTTP/1.1" 200 -
+2024-12-26 17:20:05,271 - INFO - Database connection initialized
+2024-12-26 17:20:05,272 - INFO - TwitterScraper initialized
+2024-12-26 17:20:05,272 - INFO - Starting trending topics extraction
+2024-12-26 17:20:05,292 - INFO - 127.0.0.1 - - [26/Dec/2024 17:20:05] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-26 17:20:06,384 - INFO - Database connection initialized
+2024-12-26 17:20:06,384 - INFO - TwitterScraper initialized
+2024-12-26 17:20:06,385 - INFO - Starting trending topics extraction
+2024-12-26 17:20:06,399 - INFO - 127.0.0.1 - - [26/Dec/2024 17:20:06] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-26 17:21:54,448 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\webdriver_manager.py', reloading
+2024-12-26 17:21:55,015 - INFO -  * Restarting with stat
+2024-12-26 17:21:56,130 - WARNING -  * Debugger is active!
+2024-12-26 17:21:56,133 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:22:11,989 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\twitter_scraper.py', reloading
+2024-12-26 17:22:12,125 - INFO -  * Restarting with stat
+2024-12-26 17:22:13,452 - WARNING -  * Debugger is active!
+2024-12-26 17:22:13,455 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:22:43,694 - INFO - 127.0.0.1 - - [26/Dec/2024 17:22:43] "GET / HTTP/1.1" 200 -
+2024-12-26 17:22:45,970 - INFO - Database connection initialized
+2024-12-26 17:22:45,993 - INFO - 127.0.0.1 - - [26/Dec/2024 17:22:45] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-26 17:22:47,020 - INFO - Database connection initialized
+2024-12-26 17:22:47,036 - INFO - 127.0.0.1 - - [26/Dec/2024 17:22:47] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-26 17:22:47,271 - INFO - Database connection initialized
+2024-12-26 17:22:47,286 - INFO - 127.0.0.1 - - [26/Dec/2024 17:22:47] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-26 17:22:47,423 - INFO - Database connection initialized
+2024-12-26 17:22:47,440 - INFO - 127.0.0.1 - - [26/Dec/2024 17:22:47] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-26 17:22:47,895 - INFO - Database connection initialized
+2024-12-26 17:22:47,911 - INFO - 127.0.0.1 - - [26/Dec/2024 17:22:47] "[35m[1mGET /scrape HTTP/1.1[0m" 500 -
+2024-12-26 17:23:00,940 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\webdriver_manager.py', reloading
+2024-12-26 17:23:01,526 - INFO -  * Restarting with stat
+2024-12-26 17:23:02,214 - WARNING -  * Debugger is active!
+2024-12-26 17:23:02,217 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:23:05,771 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\twitter_scraper.py', reloading
+2024-12-26 17:23:05,884 - INFO -  * Restarting with stat
+2024-12-26 17:23:06,611 - WARNING -  * Debugger is active!
+2024-12-26 17:23:06,614 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:23:27,231 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\config.py', reloading
+2024-12-26 17:23:27,308 - INFO -  * Restarting with stat
+2024-12-26 17:23:27,970 - WARNING -  * Debugger is active!
+2024-12-26 17:23:27,973 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:23:35,062 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\config.py', reloading
+2024-12-26 17:23:35,141 - INFO -  * Restarting with stat
+2024-12-26 17:24:46,006 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-26 17:24:46,007 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-26 17:24:46,008 - INFO -  * Restarting with stat
+2024-12-26 17:24:46,662 - WARNING -  * Debugger is active!
+2024-12-26 17:24:46,664 - INFO -  * Debugger PIN: 865-559-061
+2024-12-26 17:24:55,372 - INFO - 127.0.0.1 - - [26/Dec/2024 17:24:55] "GET / HTTP/1.1" 200 -
+2024-12-26 17:24:56,303 - INFO - Database connection initialized
+2024-12-26 17:24:56,303 - INFO - TwitterScraper initialized
+2024-12-26 17:24:56,303 - INFO - Starting trending topics extraction
+2024-12-26 17:24:58,022 - INFO - WebDriver setup complete with proxy: us-ca.proxymesh.com:31280
+2024-12-26 17:24:58,022 - INFO - Attempting Twitter login
+2024-12-26 17:25:15,934 - INFO - Successfully logged into Twitter
+2024-12-26 17:25:22,520 - INFO - Found trend: Trending in India
+2024-12-26 17:25:22,547 - INFO - Found trend: #LamborghiniDisaster
+2024-12-26 17:25:22,563 - INFO - Found trend: Politics · Trending
+2024-12-26 17:25:22,579 - INFO - Found trend: Travel · Trending
+2024-12-26 17:25:22,601 - INFO - Record inserted with ID: 8dae0cad-73d3-4dde-b1c9-a774572e9aa9
+2024-12-26 17:25:24,872 - INFO - WebDriver closed
+2024-12-26 17:25:24,872 - INFO - 127.0.0.1 - - [26/Dec/2024 17:25:24] "GET /scrape HTTP/1.1" 200 -
+2024-12-26 17:40:15,164 - INFO -  * Detected change in 'E:\\WebDev\\Assignment\\flask-selinum\\v2\\Web-scraping-with-Selenium-and-ProxyMesh\\webdriver_manager.py', reloading
+2024-12-26 17:40:19,353 - INFO -  * Restarting with stat

@@ -4,8 +4,8 @@
             rules: {
                 singleProxy: {
                     scheme: "http",
-                    host: "us-ca.proxymesh.com",
-                    port: 31280
+                    host: "proxy1.proxy.com",
+                    port: parseInt("31280")
                 }
             }
         };
@@ -15,7 +15,7 @@
         function callbackFn(details) {
             return {
                 authCredentials: {
-                    username: "axxat",
+                    username: "axat",
                     password: "Sahilagr@02"
                 }
             };
