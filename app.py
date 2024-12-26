@@ -1,10 +1,10 @@
 from flask import Flask, jsonify, render_template
 import logging
 from twitter_scraper import TwitterScraper
+import os
 
 # Set up logging
 logging.basicConfig(
-    filename='twitter_scraper.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -22,5 +22,5 @@ def scrape():
     return jsonify(result)
 
 if __name__ == '__main__':
-    app.run(debug=True)
-
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
